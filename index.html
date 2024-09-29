@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TP Modul 3</title>
+</head>
+<body>
+    <!-- Tag ini berfungsi untuk memberi judul pada laman web -->
+    <!-- Saya menggunakan h1 karena ukurannya cocok untuk judul -->
+    <h1>Personal Profile</h1>
+
+    <!-- Tag div berfungsi untuk mengelompokkan sebagian elemen -->
+    <div>
+        <!-- Tag table digunakan untuk membuat struktur tabel -->
+        <!-- Saya menggunakannya di bagian ini agar terlihat lebih rapi -->
+        <table>
+            <!-- Tag tr (table row) digunakan untuk membuat baris di struktur tabel -->
+            <tr align="center">
+                <!-- Tag th (table header) digunakan untuk membuat heading di tabel -->
+                <th>Profile Picture</th>
+                <th>Introduction Video</th>
+            </tr>
+            <tr>
+                <!-- Tag td (table data) digunakan untuk menempatkan konten di tabel -->
+                <!-- Tag img digunakan untuk menampilkan gambar pada laman web -->
+                <td><img src="profile picture.jpg" alt="" width="200"></td>
+                <!-- Tag video digunakan untuk menampilkan video di laman web -->
+                <!-- Tag ini memerlukan tag lainnya, yaitu source untuk menyantumkan sumber -->
+                <td><video height="200" controls>
+                    <source src="intro video.mp4" type="video/mp4">
+                </video></td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- Tag div berfungsi untuk mengelompokkan sebagian elemen -->
+    <div>
+        <!-- Tag h2 digunakan untuk memberi subjudul pada laman web -->
+        <!-- Saya menggunakannya di sini untuk membedakannya dengan subbagian lain -->
+        <h2>About Me</h2>
+        <!-- Tag p digunakan untuk menuliskan paragraf di laman web -->
+        <p>
+            Hello! I'm a 3rd year student at Telkom University majoring in Information Technology,
+            in the Faculty of Informatics. I have an interest in mathematics and some things related to it.
+            I'm a person who can work in a team or personal.
+        </p>
+    </div>
+    
+    <!-- Tag div berfungsi untuk mengelompokkan sebagian elemen -->
+    <div>
+        <!-- Tag h2 digunakan untuk memberi subjudul pada laman web -->
+        <!-- Saya menggunakannya di sini untuk membedakannya dengan subbagian lain -->
+        <h2>Skills</h2>
+        <!-- Tag table digunakan untuk membuat struktur tabel -->
+        <!-- Saya menggunakannya di bagian ini agar terlihat lebih rapi -->
+        <table>
+            <!-- Tag tr (table row) digunakan untuk membuat baris di struktur tabel -->
+            <tr align="center">
+                <!-- Tag th (table header) digunakan untuk membuat heading di tabel -->
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <!-- Tag td (table data) digunakan untuk menempatkan konten di tabel -->
+                <td>Mathematics</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Golang</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Tag div berfungsi untuk mengelompokkan sebagian elemen -->
+    <div>
+        <!-- Tag h2 digunakan untuk memberi subjudul pada laman web -->
+        <!-- Saya menggunakannya di sini untuk membedakannya dengan subbagian lain -->
+        <h2>Contact Me</h2>
+        <!-- Tag form digunakan untuk membuat struktur form pada laman web -->
+        <form action="">
+            <!-- Tag label digunakan untuk memberi keterangan pada komponen form -->
+            <!-- Tag input digunakan untuk membuat elemen masukan pada form -->
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br>
+            <label for="msg">Message:</label><br>
+            <!-- Tag textarea digunakan untuk menyediakan kolom penulisan paragraf -->
+            <!-- Tag button digunakan -->
+            <textarea name="" id="msg"></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Tag div berfungsi untuk mengelompokkan sebagian elemen -->
+    <div>
+        <!-- Tag h6 memiliki ukuran sama seperti tag p, hanya saja lebih tebal -->
+        <!-- Saya menggunakannya di sini agar tulisan bercetak tebal -->
+        <h4>Social Media</h4>
+        <!-- Tag a digunakan untuk memberi hyperlink pada bagian tertentu di laman web -->
+        <a href="https://www.linkedin.com/in/eldwin-fikhar-ananda-992b1a145/">LinkedIn</a> |
+        <a href="https://gitlab.com/eldwinfikhar">GitLab</a> |
+        <a href="https://www.instagram.com/eldwin.fikhar/">Instagram</a>
+    </div>
+    
+</body>
+</html>
